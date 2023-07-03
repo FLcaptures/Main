@@ -1,19 +1,13 @@
-Helios by HTML5 UP
+Halcyonic by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Helios, a brand new site template for HTML5 UP. It's clean, modern, and designed
-to take advantage of larger (well, wider) displays while still being capable of gracefully
-scaling down to fit all manner of smaller ones.
+A somewhat unusual but interesting responsive site template. I did this one to test out a
+new pattern set I put together and I think it really came together well. As for use cases
+it's kind of unspecific so hey, use it for whatever.
 
-Demo images* courtesy of Michael Domaradzki, an awesome photographer I met over at
-deviantART. Check out his portfolio here:
-
-http://md.photomerchant.net/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Michaels's work without his explicit permission!)
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
 AJ
 aj@lkn.io | @ajlkn
@@ -22,12 +16,8 @@ aj@lkn.io | @ajlkn
 Credits:
 
 	Demo Images:
-		Michael Domaradzki (md.photomerchant.net)
-
-	Icons:
-		Font Awesome (fontawesome.io)
+		Unsplash (unsplash.com)
 
 	Other:
 		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
