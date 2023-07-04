@@ -52,7 +52,7 @@
 								<h1>Schedule Now.</h1>
 							</header>
 							<div class="content">
-								<h3>To schedule for drone photography service, please follow the instructions provided below.</h3>
+								<h3>Please follow the instructions provided below.</h3>
 							</div>
 						</div>
 					</section>
@@ -67,6 +67,18 @@
 										<h2>Step 1:</h2>
 									</header>
 									<p>Select the type of service.</p>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Select -</option>
+											<option value="1">Real Estate</option>
+											<option value="1">Special Events</option>
+											<option value="1">Inspection</option>
+											<option value="1">Marketing / Business</option>
+											<option value="1">Content Creation</option>
+											<option value="1">Other</option>
+										</select>
+									</div>
+
 								</div>
 							</section>
 
@@ -76,7 +88,26 @@
 										<header class="major">
 											<h2>Step 2:</h2>
 										</header>
-										<p>Select the time and location.</p>
+										<p>Enter date, time, and address</p>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="street" id="inputStreet" value="" placeholder="Street" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="city" id="inputCity" value="" placeholder="City" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="state" id="inputState" value="" placeholder="State" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="zip" value="" placeholder="Zip Code" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="datetime-local" id="inputDateTime" value="" placeholder="Date & Time" />
+												</div>
+											</div>
+										</form>
 									</div>
 								</section>
 								<section id="three">
@@ -85,6 +116,18 @@
 											<h2>Step 3:</h2>
 										</header>
 										<p>Provide your contact information.</p>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-4 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-4 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-4 col-12-xsmall">
+													<input type="tel" name="demo-email" id="demo-email" value="" placeholder="Phone Number" />
+												</div>
+										</form>
 									</div>
 								</section>
 								<section id="three">
@@ -93,7 +136,12 @@
 											<h2>Step 4:</h2>
 										</header>
 										<p>Confirm and Schedule. </p>
-									</div>
+										<div class="col-4 col-12-xsmall">
+											<ul class="actions fit">
+												<li><a href="#" class="button primary fit confirm">Confirm and Schedule</a></li>
+											</ul>
+										</div>
+										</div>
 								</section>
 							</section>
 					</div>
@@ -127,8 +175,8 @@
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<h3>Send us an Email at</h3>
+										<a href="#">floridacaptures@gmail.com</a>
 									</div>
 								</section>
 								<section>
