@@ -3970,3 +3970,11 @@ input, select, textarea {
 .confirm {
 	max-width: 33.3333%;
 }
+
+.fa-location-arrow {
+	margin: 0 auto; 
+}
+
+.fa-location-arrow::before {
+	margin-right: 1rem; 
+}
