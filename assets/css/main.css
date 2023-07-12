@@ -3980,3 +3980,7 @@ input, select, textarea {
 .fa-location-arrow::before {
 	margin-right: 1rem; 
 }
+
+.login {
+	width: 83.33333%; 
+}
